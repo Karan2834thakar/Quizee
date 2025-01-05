@@ -1,14 +1,14 @@
 {
   "name": "quiz",
   "private": true,
-  "homepage": "https://github.com/Karan2834thakar/Quizee.git",
+  "homepage": "https://Karan2834thakar.github.io/Quizee.git/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
